@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danfoss Drives</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #d32f2f; /* Danfoss Red */
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .logo {
+      display: block;
+      margin: 20px auto;
+      width: 160px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .about {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .about h2 {
+      text-align: center;
+      color: #d32f2f;
+    }
+
+    .about p {
+      line-height: 1.6;
+      font-size: 16px;
+      text-align: justify;
+    }
+
+    .products {
+      max-width: 900px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .product-card p {
+      font-weight: bold;
+      color: #b71c1c;
+    }
+
+    .back-btn {
+      display: block;
+      width: 220px;
+      margin: 30px auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #d32f2f;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .back-btn:hover {
+      background-color: #b71c1c;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Danfoss Drives</header>
+
+  <img src="danfoss-logo.jpg" alt="Danfoss Logo" class="logo">
+
+  <div class="about">
+    <h2>About Danfoss Drives</h2>
+    <p>
+      Danfoss provides innovative and energy-efficient drives for industrial and commercial applications. Their drives optimize motor control, reduce energy consumption, and ensure reliable performance across multiple sectors.
+    </p>
+  </div>
+
+  <div class="products">
+    <div class="product-card">
+      <img src="vlt-fc.jpg" alt="VLT Drive">
+      <p>VLT Drives</p>
+    </div>
+    <div class="product-card">
+      <img src="microdrive.jpg" alt="Micro Drive">
+      <p>Micro Drives</p>
+    </div>
+    <div class="product-card">
+      <img src="vfd.jpg" alt="VFD Drive">
+      <p>Variable Frequency Drives</p>
+    </div>
+  </div>
+
+  <a href="#" class="back-btn">⬅ Back to Brands</a>
+
+</body>
+</html>
